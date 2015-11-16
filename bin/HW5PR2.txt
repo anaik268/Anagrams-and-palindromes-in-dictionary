@@ -1,0 +1,8 @@
+method bottom(Stack s)
+	Make empty Stack t
+	While s.isEmpty() is false
+		Pop value from s onto temp variable
+		Push the temp variable on to stack t
+	Make topValue variable and get the top value on stack t using t.top()
+	Return topValue
+Running time: O(n) because the while loop ends as soon a stack s is empty so the running time depends on n, n being the size of the stack.
